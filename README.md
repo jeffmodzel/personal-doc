@@ -10,6 +10,11 @@ Repo for documenting things
 
 ## AWS CLI Examples
 
+[AWS CLI Documentation](https://docs.aws.amazon.com/cli)
+
+### AWS Connect
+
+[Connect Examples](aws-cli-connect.md)
 
 git
 
