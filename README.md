@@ -16,25 +16,36 @@ Repo for documenting things
 
 [Connect Examples](aws-cli-connect.md)
 
-## git
-```
-asdfasdsf asdfadsfasdfasdfasd
-```
-how to do credentials stuff:
-
-https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
+## Git
+How to store credentials:
 
 ```
-dfadsfasd
+ git config --global credential.helper store
+```
+Updates `~/.gitconfig` like:
+```
+[user]
+    email = person@email.com
+    name = some person
+[credential]
+   helper = store
+
+or use:
+
+git config -l
 ```
 
->dsfadsfasd
-sdfasdfad
+Stores plaintext credentials in `~/.git-credentials`
+
+Details here: https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
+
+
+
 
 ---
 
->asdfasdfasdf
-
+> block quote
+> more blockquote
 
 ```javascript
 var j =10
