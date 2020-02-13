@@ -16,7 +16,7 @@ Repo for documenting things
 
 [Connect Examples](aws-cli-connect.md)
 
-git
+## git
 
 how to do credentials stuff:
 
