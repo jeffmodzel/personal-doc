@@ -12,7 +12,7 @@ Repo for documenting things
 
 [AWS CLI Documentation](https://docs.aws.amazon.com/cli)
 
-### AWS Connect
+## AWS Connect
 
 [Connect Examples](aws-cli-connect.md)
 
