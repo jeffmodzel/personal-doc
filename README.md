@@ -17,7 +17,9 @@ Repo for documenting things
 [Connect Examples](aws-cli-connect.md)
 
 ## git
-
+```
+asdfasdsf
+```
 how to do credentials stuff:
 
 https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
