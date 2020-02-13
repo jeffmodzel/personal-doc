@@ -18,7 +18,7 @@ Repo for documenting things
 
 ## git
 ```
-asdfasdsf
+asdfasdsf asdfadsfasdfasdfasd
 ```
 how to do credentials stuff:
 
