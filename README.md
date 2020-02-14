@@ -25,7 +25,6 @@ Repo for documenting things
 
 
 ## Git
----
 How to store credentials:
 
 ```bash
@@ -74,12 +73,20 @@ git push origin --delete remoteBranchName
 ```
 
 ## Node.js
----
 ### CLI Tables
 - cli3
 - tty-table
 -c halk
 
+## CSS
+skel
+bulma
+
+w3
+other ones?
+
+### Primitive UI
+https://github.com/taniarascia/primitive
 
 ---
 
@@ -94,3 +101,16 @@ var j =10
 def junk()
   fdsafasdfas
 ```
+## Javascript front-ends
+
+### Vue
+[LInk to sub-page](vue.md)
+
+
+## SQLite
+https://www.sqlite.org
+https://www.sqlite.org/cli.html
+https://github.com/pawelsalawa/sqlitestudio
+https://docs.python.org/3/library/sqlite3.html
+
+

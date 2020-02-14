@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/primitive-ui/dist/css/main.css" />
+    <title>Vue App</title>
+  </head>
+
+  <body>
+
+    <div id="app" class="container">
+        {{ message }}
+        in dev
+    </div>
+
+    <div id="app-2">
+        <span v-bind:title="message">
+          Hover your mouse over me for a few seconds
+          to see my dynamically bound title!
+        </span>
+      </div>
+
+      <div id="app-4">
+        <ol>
+          <li v-for="todo in todos">
+            {{ todo.text }}
+          </li>
+        </ol>
+      </div>
+
+      <script>
+
+      var app4 = new Vue({
+        el: '#app-4',
+        data: {
+          todos: [
+            { text: 'Learn JavaScript' },
+            { text: 'Learn Vue' },
+            { text: 'Build something awesome' }
+          ]
+        }
+      })
+</script>
+
+      <div class="flex-row">
+        <div class="flex-small">A</div>
+        <div class="flex-small">B</div>
+    </div>
+    <div class="flex-row">
+        <div class="flex-large">C</div>
+        <div class="flex-large">D</div>
+    </div>
+
+    <script>
+        const App = new Vue({
+          el: '#app',
+          data: {
+            message: 'Hello Vue!',
+          },
+        })
+
+        var app2 = new Vue({
+  el: '#app-2',
+  data: {
+    message: 'You loaded this page on ' + new Date().toLocaleString()
+  }
+})
+      </script>
+
+  </body>
+</html>
