@@ -24,8 +24,8 @@ Repo for documenting things
 [reInvent Video](https://aws.amazon.com/dynamodb/resources/reinvent-2019-data-modeling/?sc_ichannel=ha&sc_icontent=console_OrganizationID_PageID_db-datamodeling_awssm-3583&sc_icampaign=Adoption_Campaign_pac_q42019_sitemerch_console_DynamoDB&trkCampaign=pac_sm_q4_1019_dynamodb_DataModeling&trk=ha_awssm-3583&sc_ioutcome=PaaS_Digital_Marketing&sc_iplace=console_OrganizationID_PageID_STANDARD)
 
 
-
 ## Git
+---
 How to store credentials:
 
 ```bash
@@ -58,17 +58,28 @@ git checkout -b feature_x
 git push origin <branch>
 
 
-```
+```script
+// create new branch and check it out
+git checkout -b feature_x
+
+// push branch to new remote branch
+git push origin feature_x
+
+
 // delete branch locally
 git branch -d localBranchName
 
 // delete branch remotely
 git push origin --delete remoteBranchName
 ```
-## cli tables
-cli3
-tty-table
-chalk
+
+## Node.js
+---
+### CLI Tables
+- cli3
+- tty-table
+-c halk
+
 
 ---
 
