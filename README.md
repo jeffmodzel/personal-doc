@@ -114,3 +114,5 @@ https://github.com/pawelsalawa/sqlitestudio
 https://docs.python.org/3/library/sqlite3.html
 
 
+## Python
+https://www.python.org/dev/peps/pep-0008/#naming-conventions
