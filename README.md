@@ -124,10 +124,21 @@ https://www.sqlite.org/cli.html
 https://github.com/pawelsalawa/sqlitestudio
 https://docs.python.org/3/library/sqlite3.html
 
-
 ## Python
+
 https://www.python.org/dev/peps/pep-0008/#naming-conventions
 https://book.pythontips.com/en/latest/index.html
 
 ## Electron
+
 electron stuff here
+
+## OAuth and SAML
+
+https://dev-256594.okta.com/login/login.htm
+https://oauthdebugger.com/
+https://oidcdebugger.com/
+https://developer.okta.com/docs/concepts/
+https://aaronparecki.com/oauth-2-simplified/#single-page-apps
+https://developer.okta.com/blog/2019/08/22/okta-authjs-pkce
+https://developer.okta.com/blog/2019/05/01/is-the-oauth-implicit-flow-dead
