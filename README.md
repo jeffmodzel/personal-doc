@@ -139,6 +139,6 @@ https://dev-256594.okta.com/login/login.htm
 https://oauthdebugger.com/
 https://oidcdebugger.com/
 https://developer.okta.com/docs/concepts/
-https://aaronparecki.com/oauth-2-simplified/#single-page-apps
+https://aaronparecki.com/oauth-2-simplified/
 https://developer.okta.com/blog/2019/08/22/okta-authjs-pkce
 https://developer.okta.com/blog/2019/05/01/is-the-oauth-implicit-flow-dead
