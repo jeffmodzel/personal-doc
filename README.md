@@ -23,58 +23,14 @@ Repo for documenting things
 
 [reInvent Video](https://aws.amazon.com/dynamodb/resources/reinvent-2019-data-modeling/?sc_ichannel=ha&sc_icontent=console_OrganizationID_PageID_db-datamodeling_awssm-3583&sc_icampaign=Adoption_Campaign_pac_q42019_sitemerch_console_DynamoDB&trkCampaign=pac_sm_q4_1019_dynamodb_DataModeling&trk=ha_awssm-3583&sc_ioutcome=PaaS_Digital_Marketing&sc_iplace=console_OrganizationID_PageID_STANDARD)
 
-
 ## Serverless
+
 [LInk to sub-page](serverless.md)
 
-
 ## Git
-How to store credentials:
 
-```bash
- git config --global credential.helper store
-```
-Updates `~/.gitconfig` like:
-```
-[user]
-    email = person@email.com
-    name = some person
-[credential]
-   helper = store
+[LInk to sub-page](git.md)
 
-or use:
-
-git config -l
-```
-
-create git md file and link it
-
-Stores plaintext credentials in `~/.git-credentials`
-
-Details here: https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
-
-
-https://rogerdudler.github.io/git-guide/
-
-
-git checkout -b feature_x
-git push origin <branch>
-
-
-```script
-// create new branch and check it out
-git checkout -b feature_x
-
-// push branch to new remote branch
-git push origin feature_x
-
-
-// delete branch locally
-git branch -d localBranchName
-
-// delete branch remotely
-git push origin --delete remoteBranchName
-```
 
 ## Node.js
 ### CLI Tables
@@ -142,3 +98,7 @@ https://developer.okta.com/docs/concepts/
 https://aaronparecki.com/oauth-2-simplified/
 https://developer.okta.com/blog/2019/08/22/okta-authjs-pkce
 https://developer.okta.com/blog/2019/05/01/is-the-oauth-implicit-flow-dead
+
+## JWT
+
+[LInk to sub-page](jwt.md)
